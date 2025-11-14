@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "HelveticaRounded-Black";
+  src: url("/fonts/Helvetica Rounded Black.otf");
+}
+
+@font-face {
+  font-family: "HelveticaRounded-BlackObl";
+  src: url("/fonts/Helvetica Rounded Black Oblique.otf");
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
