@@ -15,7 +15,7 @@ export const CountdownPage = ({
   imageAlt: string;
   date: Date;
   completedMessage: string;
-  style: CSSProperties | undefined;
+  style?: CSSProperties | undefined;
 }) => (
   <div className={styles["countdown-page"]} style={style}>
     <div>
