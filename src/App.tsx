@@ -1,4 +1,9 @@
+import { NavLink } from "react-router";
 import "./App.css";
-import { Kirby } from "./components/Kirby";
 
-export const App = () => <Kirby />;
+export const App = () => (
+  <div>
+    <h1>Countdowns</h1>
+    <NavLink to="/kirby-air-riders">Kirby Air Riders</NavLink>
+  </div>
+);
