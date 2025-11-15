@@ -1,5 +1,6 @@
 import Countdown from "react-countdown";
 import styles from "./CountdownPage.module.css";
+import type { CSSProperties } from "react";
 
 export const CountdownPage = ({
   title,
@@ -7,14 +8,16 @@ export const CountdownPage = ({
   imageAlt,
   date,
   completedMessage,
+  style,
 }: {
   title: string;
   image: string;
   imageAlt: string;
   date: Date;
   completedMessage: string;
+  style: CSSProperties | undefined;
 }) => (
-  <div className={styles["countdown-page"]}>
+  <div className={styles["countdown-page"]} style={style}>
     <div>
       <img src={image} className={styles.logo} alt={imageAlt} />
     </div>

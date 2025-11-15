@@ -1,3 +1,4 @@
+/* Kirby */
 @font-face {
   font-family: "HelveticaRounded-Black";
   src: url("/fonts/Helvetica Rounded Black.otf");
@@ -6,6 +7,12 @@
 @font-face {
   font-family: "HelveticaRounded-BlackObl";
   src: url("/fonts/Helvetica Rounded Black Oblique.otf");
+}
+
+/* Metroid */
+@font-face {
+  font-family: "Serpentine-Bold";
+  src: url("/fonts/serpentine-bold.otf");
 }
 
 :root {
