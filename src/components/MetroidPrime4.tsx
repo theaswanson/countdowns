@@ -6,7 +6,7 @@ export const MetroidPrime4 = () => (
     title="Metroid Prime 4"
     image={image}
     imageAlt="Metroid"
-    date={new Date(2025, 12, 4, 3)}
+    date={new Date(2025, 11, 4, 3)}
     completedMessage="The game is live! Go play!"
     style={{ fontFamily: "Serpentine-Bold" }}
   />
