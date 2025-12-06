@@ -18,5 +18,9 @@ export const App = () => (
     <NavLink to="/metroid-prime-4">
       <NavItem>Metroid Prime 4</NavItem>
     </NavLink>
+
+    <NavLink to="/the-game-awards">
+      <NavItem>The Game Awards</NavItem>
+    </NavLink>
   </div>
 );

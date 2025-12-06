@@ -8,5 +8,6 @@ export const Kirby = () => (
     imageAlt="Kirby"
     date={new Date(2025, 10, 20, 3)}
     completedMessage="The game is live! Go play!"
+    style={{ fontFamily: "HelveticaRounded-BlackObl" }}
   />
 );

@@ -1,6 +1,7 @@
 import Countdown from "react-countdown";
 import styles from "./CountdownPage.module.css";
 import type { CSSProperties } from "react";
+import { NavLink } from "react-router";
 
 export const CountdownPage = ({
   title,
@@ -17,12 +18,12 @@ export const CountdownPage = ({
   completedMessage: string;
   style?: CSSProperties | undefined;
 }) => (
-  <div className={styles["countdown-page"]} style={style}>
+  <div>
     <div>
       <img src={image} className={styles.logo} alt={imageAlt} />
     </div>
 
-    <div className={styles.card}>
+    <div className={styles.card} style={style}>
       <Countdown
         date={date}
         renderer={({ days, hours, minutes, seconds, completed }) => {
@@ -61,5 +62,9 @@ export const CountdownPage = ({
         }}
       />
     </div>
+
+    <NavLink to="/">
+      <button>Home</button>
+    </NavLink>
   </div>
 );
